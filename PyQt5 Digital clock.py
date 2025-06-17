@@ -44,7 +44,7 @@ class DigitalClock(QWidget):
         self.update_time()
 
     def update_time(self):
-        current_time = QTime.currentTime().toString("hh:mm:ss A")  # Correct format
+        current_time = QTime.currentTime().toString("hh:mm:ss A")  
         self.time_label.setText(current_time)
 
 if __name__ == "__main__":
