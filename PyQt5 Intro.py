@@ -5,7 +5,7 @@ from PyQt5.QtGui import QIcon
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("My cool first GUI")
+        self.setWindowTitle("My Graphical User Interface")
         self.setGeometry(700, 300, 500, 500)
         self.setWindowIcon(QIcon("Coding_pic.jpg"))
 
